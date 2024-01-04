@@ -1,3 +1,3 @@
 # Modern Next.js App for car rental
 
-Visit website here: [https://carhub-rust.vercel.app/](https://duckduckgo.com)
+Visit app here: [https://carhub-rust.vercel.app/](https://carhub-rust.vercel.app/)
