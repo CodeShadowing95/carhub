@@ -37,5 +37,6 @@ next-env.d.ts
 
 # git configs
 .push
- 
- .env
+
+# Env variables
+.env
