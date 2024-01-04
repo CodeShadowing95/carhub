@@ -10,8 +10,14 @@ export interface CustomButtonProps {
     isDisabled?: boolean;
 }
 
+export interface OptionsProps { 
+    title: string;
+    value: string;
+}
+
 export interface CustomFilterProps {
     title: string;
+    options: OptionsProps[];
 }
 
 export interface SearchManufacturerProps {
