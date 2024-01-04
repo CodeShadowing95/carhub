@@ -20,9 +20,20 @@ export interface CustomFilterProps {
     options: OptionsProps[];
 }
 
+export interface CustomFilterProps1 {
+    title: string;
+    options: OptionsProps[];
+    setFilter: (e: any) => void;
+}
+
 export interface SearchManufacturerProps {
     manufacturer: string;
     setManufacturer: (manufacturer: string) => void;
+}
+
+export interface SearchManufacturerProps1 {
+    selected: string;
+    setSelected: (manufacturer: string) => void;
 }
 
 export interface CarProps {
@@ -57,4 +68,19 @@ export interface FilterProps {
 export interface ShowMoreProps {
     pageNumber: number;
     isNext: boolean;
+}
+
+export interface ShowMoreProps1 {
+    pageNumber: number;
+    isNext: boolean;
+    setLimit: (limit: number) => void;
+}
+
+export interface SearchbarProps {
+    setManufacturer: (s: string) => void;
+    setModel: (s: string) => void;
+}
+
+export interface HomeProps {
+    searchParams: FilterProps;
 }
