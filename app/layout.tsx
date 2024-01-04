@@ -18,8 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
         <head>
-            <title>Carshowcase | Home</title>
-            <link rel="icon" href="car-logo.svg" type="image/x-icon" />
+            <title>Car Hub | Home</title>
+            <link rel="icon" href="car.svg" type="image/x-icon" />
         </head>
       <body className="relative">
         <Navbar />
